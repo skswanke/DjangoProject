@@ -1,0 +1,74 @@
+
+.results ul {
+    width: 90px;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.index ul {
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    list-style: none;
+    text-align: center;
+}
+
+.index li {
+    margin-bottom: 2px;
+}
+
+li a {
+    color: green;
+}
+
+.results ul {
+    width = 90px;
+    background-color: forestgreen;
+    color: white;
+    border: dotted darkgray 4px;
+}
+
+.results a {
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.detail p {
+    text-align: center;
+}
+
+.detail strong {
+    padding: 5px;
+    border: solid red 5px;
+}
+
+form {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: forestgreen;
+    padding: 15px;
+    width: 50px;
+    border: solid darkgreen 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+input[type='submit'] {
+    margin-top: 15px;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat right bottom;
+}
